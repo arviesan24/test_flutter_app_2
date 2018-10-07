@@ -1,6 +1,6 @@
 # real_world_app
 
-A new Flutter project.
+A test flutter app made in reference of this tutorial: https://www.youtube.com/watch?v=S59b-XFsyY8&t
 
 ## Getting Started
 
