@@ -68,7 +68,7 @@ class _RealWorldAppState extends State<RealWorldApp> {
                           Navigator.push(
                               context,
                               new MaterialPageRoute(
-                                  builder: (context) => new DetailPage()));
+                                  builder: (context) => new DetailPage(selectedVideoId:video)));
                         },
                       );
                     },
