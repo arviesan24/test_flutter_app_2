@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 
-class DetailPage extends StatelessWidget {
+class DetailPage extends StatefulWidget {
+  @override
+  _DetailPageState createState() => _DetailPageState();
+}
+
+class _DetailPageState extends State<DetailPage> {
+  var _isLoading = true;
+
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text('Details'),
-      ),
-      body: new Center(child: new Text('Details will show here.')),
+    return Container(
+      
     );
   }
 }
