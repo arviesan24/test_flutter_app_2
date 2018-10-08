@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 
 class DetailPage extends StatefulWidget {
   @override
@@ -10,7 +11,7 @@ class _DetailPageState extends State<DetailPage> {
   var _details;
 
   _fetchData() async{
-    
+
   }
 
   @override
