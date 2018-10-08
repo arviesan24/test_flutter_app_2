@@ -7,6 +7,7 @@ class DetailPage extends StatefulWidget {
 
 class _DetailPageState extends State<DetailPage> {
   var _isLoading = true;
+  var _details;
 
   @override
   Widget build(BuildContext context) {
