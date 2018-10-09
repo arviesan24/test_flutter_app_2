@@ -37,7 +37,6 @@ class _RealWorldAppState extends State<RealWorldApp> {
       // });
       setState(() {
         _isLoading = false;
-        this.videos = videosJson;
       });
     }
   }
