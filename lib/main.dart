@@ -13,7 +13,6 @@ class RealWorldApp extends StatefulWidget {
 
 class _RealWorldAppState extends State<RealWorldApp> {
   var _isLoading = true;
-  var videos;
 
   @override
   void initState() {
