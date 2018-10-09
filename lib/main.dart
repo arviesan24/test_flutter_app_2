@@ -18,7 +18,7 @@ class _RealWorldAppState extends State<RealWorldApp> {
   _fetchData() async {
     print('Attempting to fetch data from the network.');
 
-    final url = 'http://api.letsbuildthatapp.com/youtube/home_feed';
+    final url = 'https://api.letsbuildthatapp.com/youtube/home_feed';
     final response = await http.get(url);
     if (response.statusCode == 200) {
       final map = json.decode(response.body);
