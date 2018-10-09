@@ -15,6 +15,12 @@ class _RealWorldAppState extends State<RealWorldApp> {
   var _isLoading = true;
   var videos;
 
+  @override
+  void initState() {
+    super.initState();
+    _fetchData();
+  }
+
 
   final selectedVideoId = new List<Video>();
 
