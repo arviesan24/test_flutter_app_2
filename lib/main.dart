@@ -21,7 +21,7 @@ class _RealWorldAppState extends State<RealWorldApp> {
   }
 
 
-  final selectedVideoId = new List<Video>();
+  final videos = new List<Video>();
 
   _fetchData() async {
     print('Attempting to fetch data from the network.');
